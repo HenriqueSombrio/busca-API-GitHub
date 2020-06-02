@@ -1,11 +1,11 @@
 /*geral*/
-* {
+html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-container h1{
@@ -120,17 +120,6 @@ nav:after {
 }
 
 
-.wrapper {
-    font-size: 12px;
-    margin-top: 20px;
-    background-color: #fafafacb;
-    text-align: center;
-	
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .title-center {
 	font-size: 36px;
 	margin-bottom: 30px;
@@ -148,27 +137,110 @@ nav:after {
 	font-size: 18px;
 }
 
-/*article*/
+.container-skills {
 
-.status-box-article {
-    display: grid;
-    grid-template-columns: 0.3fr 0.3fr;
-    justify-content: center;
+    height: 200px;
+    margin-top: 20px;
 }
 
-.status-box-article h3 {
-    color: #C0B6CB;
+.container-skills p {
+
+    font-size: 14px;
 }
 
-.status-box-article p {
-    color: #6057E6
+.midias {
+    padding: 20px;
 }
 
-.final h5 {
-    color: black;
+.container-features {
+    background-color: #fafafacb;
+    padding: 20px;
+}
+
+.container-features h5 {
+
+    color: #0084C3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.container-features p {
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+}
+
+.container-row {
+    
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.coluna-features {
+    
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.coluna-features p {
+    
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.final p {
+    
+    font-size: 14px;
+    height: 100px;
+    margin-left: 90px;
+    padding: 20px;
 }
 
 footer {
-    background-color: #666;
-    height: 20em;
+    
+    background-color: rgb(37, 37, 37);
+    color: #fefefe;
+    height: 350px;
+}
+
+.container-footer {
+    
+    margin-left: 80px;
+    padding: 20px;
+    
+}
+
+.column-footer a {
+    
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+.separator {
+
+    height: 1px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.separator-midias {
+
+    height: 1px;
+    background-color: black;
+}
+
+.copyright {
+
+    font-size: 12px;
 }
