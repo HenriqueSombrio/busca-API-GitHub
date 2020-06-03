@@ -21,6 +21,16 @@ header {
 
 .text-p {
     color: #0084C3;
+
+}
+
+.botao {
+    padding: 0.5rem;
+    margin-left: 2rem;
+}
+.cabecalho {
+    padding: 0.8rem;
+    font-size: 14px;
 }
 
 .link {
@@ -38,19 +48,21 @@ header {
 .container-header a {
     
     text-decoration: none;
-    
     margin-top: 10px 10px 10px;
 }
 
 .btn {
-padding: 8px 20px;
+padding: 8px 10px;
 border: 1px solid #0084C3;
 border-radius: 15px;
 background-color: #0084C3 !important;
 color: #fff;
-
 }
 
+.btn :hover {
+    background-color: #FFF;
+    color: blue;
+}
 
 /*banner */
 .banner {
@@ -131,21 +143,14 @@ color: #fff;
     padding: 20px;
 }
 
-footer {
+.rodape {
     
     background-color: rgb(37, 37, 37);
     color: #fefefe;
-    height: 350px;
+    height: 100%;
 }
 
-.container-footer {
-    
-    margin-left: 80px;
-    padding: 20px;
-    
-}
-
-.column-footer a {
+.rodape a {
     
     color: #fff;
     font-size: 12px;
@@ -153,21 +158,8 @@ footer {
     
 }
 
-.separator {
-
-    height: 1px;
-    background-color: #fff;
-    margin-top: 20px;
-    margin-right: 100px;
-}
-
-.separator-midias {
-
-    height: 1px;
-    background-color: black;
-}
-
 .copyright {
-
+    border-top: 1px solid rgb(163, 137, 137);
     font-size: 12px;
+    margin-top: 2rem;
 }
