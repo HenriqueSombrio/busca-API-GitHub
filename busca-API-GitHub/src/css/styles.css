@@ -3,8 +3,6 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-html {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -13,10 +11,6 @@ html {
     color: #4389A2;
 }
 
-.container {
-    max-width: 1920px;
-    width: 100%;
-}
 
 /*header*/
 header {
@@ -77,29 +71,42 @@ nav:after {
     cursor: pointer;
 }
 
-/*banner */
-.banner {
-    background: #5C258D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #5C258D, #4389A2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #5C258D, #4389A2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    position: relative;
-    height: 30em;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10em;
-    padding-bottom: 100px;
-    text-align: center;
+.container-header p {
+    color: #0084C3;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-header a {
+    
+    text-decoration: none;
+    color: rgb(163, 137, 137);
+    margin-top: 10px 10px 10px;
+}
+
+/*.btn {
+    border-color: #0084C3;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #0084C3;
+    border-width: 0;
+}*/
+
+.btn {
+padding: 8px 20px;
+border: 1px solid #0084C3;
+border-radius: 15px;
+background-color: #0084C3 !important;
+color: #fff;
+
 }
 
 
-
-.banner h2, h5{
-    color: #FFF;
-    width: 20em;
-    margin-top: 1em;
-    margin-left: 24px;
-    text-align: justify;
+/*banner */
+.container-banner {
+    background-color: #0084C3;
+    color: #fff;
+    height: 300px;
 }
 
 .container-media {
