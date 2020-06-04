@@ -52,11 +52,11 @@ header {
 }
 
 .btn {
-padding: 8px 10px;
-border: 1px solid #0084C3;
-border-radius: 15px;
-background-color: #0084C3 !important;
-color: #fff;
+    padding: 8px 10px;
+    border: 1px solid #0084C3;
+    border-radius: 15px;
+    background-color: #0084C3 !important;
+    color: #fff;
 }
 
 .btn :hover {
@@ -71,9 +71,12 @@ color: #fff;
     height: auto;
 }
 
+.banner p {
+    font-size: 12px;
+}
+
 .img-smartphone {
     padding: 10px;
-    margin-left: 80px;
 }
 
 .container-media {
