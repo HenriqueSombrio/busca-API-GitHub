@@ -68,7 +68,7 @@ color: #fff;
 .banner {
     background-color: #0084C3;
     color: #fff;
-    height: 200px;
+    height: auto;
 }
 
 .container-media {
@@ -108,7 +108,7 @@ color: #fff;
 
 .skills {
 
-    height: 200px;
+    height: auto;
     margin-top: 20px;
 }
 
@@ -162,4 +162,26 @@ color: #fff;
     border-top: 1px solid rgb(163, 137, 137);
     font-size: 12px;
     margin-top: 2rem;
+}
+#Capa_1 {
+    height: 50px;
+    margin-left: 50px;
+    background-color: rgb(100, 67, 247);
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+#store {
+    margin-top: 40px;
+}
+
+#features {
+    height: 50px;
+    background-color: rgb(146, 61, 224);
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
 }
