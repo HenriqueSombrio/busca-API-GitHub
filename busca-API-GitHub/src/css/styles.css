@@ -6,11 +6,6 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-.nav-container h1{
-    margin: 0;
-    color: #4389A2;
-}
-
 
 /*header*/
 header {
@@ -21,7 +16,7 @@ header {
 
 .text-p {
     color: #0084C3;
-
+    font-weight: bold;
 }
 
 .botao {
@@ -29,6 +24,7 @@ header {
     margin-left: 2rem;
 }
 .cabecalho {
+    color: dimgray;
     padding: 0.8rem;
     font-size: 14px;
 }
@@ -115,20 +111,25 @@ header {
 }
 
 .skills {
-
+    color: dimgray;
     height: auto;
     margin-top: 20px;
 }
 
 .skills p {
-
     font-size: 14px;
 }
 
+/*Medias*/
+
 .midias {
-    border-top: 20px;
+    border-top: 32px;
     padding: 20px;
     border-top: 1px solid rgb(163, 137, 137);
+}
+
+.midias p {
+    color: #0084C3;
 }
 
 .features {
@@ -140,11 +141,12 @@ header {
     text-align: center; 
     padding:  1.25rem;
     margin: 1.0rem;
+    color: dimgrey;
 }
 
 
 .final p {
-    
+    color: dimgray;
     font-size: 14px;
     height: 100px;
     margin-left: 90px;
@@ -154,13 +156,13 @@ header {
 .rodape {
     
     background-color: rgb(37, 37, 37);
-    color: #fefefe;
+    color: dimgray;
     height: 100%;
 }
 
 .rodape a {
     
-    color: #fff;
+    color: dimgray;
     font-size: 12px;
     text-decoration: none;
     
