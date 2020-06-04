@@ -75,11 +75,6 @@ header {
     padding: 10px;
 }
 
-.container-media {
-    display: grid;
-    grid-template-columns: ;
-    grid-gap: 100px;
-}
 
 .status-box{
     margin-top: 20px;
@@ -98,9 +93,6 @@ header {
 	margin-bottom: 30px;
 }
 
-.title-center h2 {
-	background-color: ;
-}
 
 .p-center{
     width: 80%;
