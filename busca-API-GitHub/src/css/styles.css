@@ -71,6 +71,11 @@ color: #fff;
     height: auto;
 }
 
+.img-smartphone {
+    padding: 10px;
+    margin-left: 80px;
+}
+
 .container-media {
     display: grid;
     grid-template-columns: ;
