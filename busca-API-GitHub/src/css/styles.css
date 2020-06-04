@@ -166,6 +166,12 @@ header {
     
 }
 
+.icone-rodape {
+    height: 20px;
+}
+
+
+
 .copyright {
     border-top: 1px solid rgb(163, 137, 137);
     font-size: 12px;
@@ -192,4 +198,9 @@ header {
     width: 100px;
     height: 100px;
     padding: 20px;
+}
+
+.item-svg {
+    width: 20px;
+    padding: 2px;
 }
