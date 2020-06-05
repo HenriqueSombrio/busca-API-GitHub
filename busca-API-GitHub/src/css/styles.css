@@ -75,19 +75,6 @@ header {
     padding: 10px;
 }
 
-
-.status-box{
-    margin-top: 20px;
-    display: grid;
-    gap: 2em;
-    grid-template-columns: 0.3fr 0.3fr 0.3fr;
-    justify-content: center;
-    height: 100px;
-    font-size: 20px;
-
-}
-
-
 .title-center {
 	font-size: 36px;
 	margin-bottom: 30px;
@@ -102,6 +89,8 @@ header {
 	font-size: 18px;
 }
 
+/*Skills*/
+
 .skills {
     color: dimgray;
     height: auto;
@@ -112,20 +101,56 @@ header {
     font-size: 14px;
 }
 
+/*Fundo dos icones*/
+#Capa_1 {
+    height: 50px;
+    margin-left: 50px;
+    background-color: rgb(100, 67, 247);
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+
 /*Medias*/
 
 .midias {
     border-top: 32px;
     padding: 20px;
     border-top: 1px solid rgb(163, 137, 137);
+    color:#0084C3 ;
+}
+
+.midias h5 {
+    margin-bottom: 1px;
 }
 
 .midias p {
-    color: #0084C3;
+    color: dimgray;
+    font-size: 12px;
+    margin-top: 1px;
 }
+
+.item-midias-border {
+    border-right: 1px solid rgb(163, 137, 137);
+}
+
+/*Features*/
 
 .features {
     background-color: #fafafacb;
+}
+
+.features h5 {
+    text-align: center;
+    color: rgb(146, 61, 224);
+    font-weight: bold;
+}
+
+.features p {
+    text-align: center;
+    font-size: 12px;
 }
 
 .items-features {
@@ -135,6 +160,17 @@ header {
     margin: 1.0rem;
     color: dimgrey;
 }
+
+/*Fundo dos icones*/
+#features {
+    height: 50px;
+    background-color: rgb(146, 61, 224);
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
 
 
 .final p {
@@ -164,36 +200,15 @@ header {
     height: 20px;
 }
 
-
-
 .copyright {
     border-top: 1px solid rgb(163, 137, 137);
     font-size: 12px;
     margin-top: 2rem;
 }
-#Capa_1 {
-    height: 50px;
-    margin-left: 50px;
-    background-color: rgb(100, 67, 247);
-    border-radius: 200px;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
 
 #store {
     margin-top: 40px;
 }
-
-#features {
-    height: 50px;
-    background-color: rgb(146, 61, 224);
-    border-radius: 200px;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-
 .item-svg {
     width: 20px;
     padding: 2px;
