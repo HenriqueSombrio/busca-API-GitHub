@@ -155,6 +155,7 @@ header {
 }
 
 .items-features {
+    box-shadow: 4px 2px 4px 2px rgba(161, 161, 161, 0.77);
     background-color: #fff;
     text-align: center; 
     padding:  1.25rem;
