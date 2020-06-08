@@ -48,21 +48,22 @@ header {
 }
 
 .btn {
-    padding: 8px 10px;
-    border: 1px solid #0084C3;
-    border-radius: 15px;
-    background-color: #0084C3 !important;
+    background-color: #0084C3;
     color: #fff;
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 2px 2px 2px rgba(161, 161, 161, 0.77);
 }
 
-.btn :hover {
-    background-color: #FFF;
-    color: blue;
+.btn:hover {
+    background-color: rgb(41, 140, 206);
 }
 
 /*banner */
 .banner {
-    background-color: #0084C3;
+    background-color: #6930c3;
     color: #fff;
     height: auto;
 }
@@ -101,15 +102,27 @@ header {
     font-size: 14px;
 }
 
-/*Fundo dos icones*/
-#Capa_1 {
-    height: 50px;
-    margin-left: 50px;
-    background-color: rgb(100, 67, 247);
+.items-skills {
+    align-items: center;
+}
+
+.items-skills svg {
+    align-items: center;
+    background-color: #6930c3;
     border-radius: 200px;
     width: 100px;
     height: 100px;
     padding: 20px;
+}
+
+/*Fundo dos icones*/
+#Capa_1 {
+    height: 50px;
+    margin-left: 50px;
+    background-color: #6930c3;
+    border-radius: 200px;
+    width: 100px;
+
 }
 
 
@@ -166,7 +179,7 @@ header {
 /*Fundo dos icones*/
 #features {
     height: 50px;
-    background-color: rgb(146, 61, 224);
+    background-color: #6930c3;
     border-radius: 200px;
     width: 100px;
     height: 100px;
