@@ -74,6 +74,7 @@ header {
 
 .img-smartphone {
     padding: 10px;
+    align-items: center;
 }
 
 .title-center {
@@ -192,17 +193,12 @@ header {
     align-items: center;
 }
 
-/*Fundo dos icones*/
-
-
 
 
 .final p {
     color: dimgray;
     font-size: 14px;
     height: 100px;
-    margin-left: 90px;
-    padding: 20px;
 }
 
 .rodape {
