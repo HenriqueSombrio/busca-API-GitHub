@@ -131,6 +131,21 @@ header {
 
 .banner p {
     font-size: 12px;
+    margin-top: 1px;
+}
+
+.banner h5 {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.banner h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.banner-store {
+     margin-top: 50px;
 }
 
 .img-smartphone {

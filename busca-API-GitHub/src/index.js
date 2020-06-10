@@ -1,4 +1,4 @@
-function myFunction() {
+function mostraMenu() {
     if (document.getElementById("demo").style.display == "block") {
         document.getElementById("demo").style.display = "none";
     } else {
