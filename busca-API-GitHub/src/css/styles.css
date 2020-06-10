@@ -36,6 +36,10 @@ header {
     box-sizing: border-box;
 }
 
+.link:hover {
+    color: #0a58eb;
+}
+
 .container-header p {
     color: #0a58eb;
     font-size: 18px;
