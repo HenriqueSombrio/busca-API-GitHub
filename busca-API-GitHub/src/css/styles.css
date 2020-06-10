@@ -235,14 +235,14 @@ header {
 
 .features h5 {
     text-align: center;
-    color: #4751e3;
+    color:  #5e646b;
     font-weight: bold;
 }
 
 .features p {
     text-align: center;
     font-size: 12px;
-    color: #5e646b;
+    color: #4751e3;
 }
 
 .items-features {
@@ -251,6 +251,12 @@ header {
     text-align: center; 
     color: #5e646b;
     border-radius: 4px;
+}
+
+.items-features p {
+    text-align: center;
+    font-size: 12px;
+    color: #5e646b;
 }
 
 .items-features svg {
