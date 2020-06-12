@@ -14,9 +14,8 @@ header {
     width: 100%;
 }
 
-.text-p {
+h1 {
     color: #0a58eb;
-    font-weight: bold;
 }
 
 .botao {
@@ -30,26 +29,16 @@ header {
     font-size: 14px;
 }
 
+
 .link {
+    margin-left: 20px;
     text-decoration: none;
-    color: rgb(163, 137, 137);
-    box-sizing: border-box;
+    color: #5e646b;
 }
 
-.link:hover {
-    color: #0a58eb;
-}
-
-.container-header p {
-    color: #0a58eb;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.container-header a {
-    
-    text-decoration: none;
-    margin-top: 10px 10px 10px;
+#menu {
+    margin-left: 50px;
+    font-size: 12px;
 }
 
 .btn {
@@ -66,56 +55,33 @@ header {
     background-color: rgb(41, 140, 206);
 }
 
-#mobile {
+#topo h1 {
+    display: inline-block;
+}
+
+#topo a {
+    margin-left: 100px;
     display: none;
-    margin-top: 10px;
 }
 
-#mobile h1 {
-    color: #0a58eb;
-}
+@media (max-width: 992px) {
 
-#demo a {
-    color: #5e646b;
-    margin-left: 20px;
-}
-
-#demo a:hover {
-    color: #0a58eb;
-}
-
-#demo {
-    display: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 14px;
-}
-
-
-#demo ul li a {
-    text-decoration: none;
-}
-
-#demo li {
-    list-style-type: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#demo ul {
-    padding-left: 0px;
-}
-
-#demo button {
-    margin-left: 20px;
-}
-
-@media (max-width: 414px) {
-    #cabecalho{
-        display: none;
+    
+    #topo a {
+        display: inline-block;
     }
-    #mobile {
-        display: block;
+    #menu {
+        display: grid;
+        margin-left: 0px;
+    }
+
+    #menu a {
+        padding: 10px;
+    }
+
+    #menu a:hover {
+        background-color: #0a58eb;
+        color: #FFF;
     }
     #border {
         border-right: none;
@@ -322,6 +288,7 @@ header {
 
 #store {
     height: auto;
+    cursor: pointer;
 }
 .item-svg {
     width: 20px;
