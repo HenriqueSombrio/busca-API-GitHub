@@ -1,7 +1,1 @@
-function mostraMenu() {
-    if (document.getElementById("demo").style.display == "block") {
-        document.getElementById("demo").style.display = "none";
-    } else {
-        document.getElementById("demo").style.display = "block";
-    }
-} 
+function mostraMenu() {document.getElementById("menu").element.classList.toggle('link-menu');}

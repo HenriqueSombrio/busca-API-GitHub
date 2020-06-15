@@ -55,11 +55,12 @@ h1 {
     background-color: rgb(41, 140, 206);
 }
 
+
 #topo h1 {
     display: inline-block;
 }
 
-#topo a {
+#topo img {
     margin-left: 100px;
     display: none;
 }
@@ -67,7 +68,7 @@ h1 {
 @media (max-width: 992px) {
 
     
-    #topo a {
+    #topo img {
         display: inline-block;
     }
     #menu {
